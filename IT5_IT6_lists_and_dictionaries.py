@@ -35,3 +35,13 @@ def return_weekday(weekday_list,month_dictionary):
     return weekday_list[weekday] # indexing this list with said number gives us a string of what weekday it is
 
 print(return_weekday(weekday_list,month_dictionary))
+
+# Lists in python are ordered collections of data values that aren't necessarily unique.
+# They are useful for anything you'd make a real world list out of, especially if the order is important.
+# In this program I used a list to represent the names of the days of the week because they always happen in the same order.
+# Dictionaries in python are collections of data which insted of being indexed with integers, are indexed
+# with keys that you can set youself, which can be any object of any class or data type you want apart from another dictionary.
+# Dictionaries are useful for collections of things that wouldn't necessarily be numbered but would be reffered to with some
+# other kind of indicator, they are also useful for storing lots of different attributes of a given thing.
+# In this program I used a dictionary to represent months although it would probably have been better to store the months as two
+# seperate lists, one for how many days there are in each month & one for the month names.
