@@ -34,7 +34,7 @@ def return_weekday(weekday_list,month_dictionary):
     weekday=(days)%7 # days from monday 26/12/2022 mod 7 gives us the day of the week represented as an integer between 0 & 6
     return weekday_list[weekday] # indexing this list with said number gives us a string of what weekday it is
 
-print(return_weekday(weekday_list,month_dictionary))
+print(f"Today is {return_weekday(weekday_list,month_dictionary)}")
 
 # Lists in python are ordered collections of data values that aren't necessarily unique.
 # They are useful for anything you'd make a real world list out of, especially if the order is important.
